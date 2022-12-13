@@ -1,0 +1,244 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1670161849219,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xa51014d5ac0c1a7b6a49573227442c582e889513837491e1e1160882505a31f5",
+        "contractName": "Functions",
+        "bytecode": "6080604052600760005534801561001557600080fd5b50610224806100256000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633fb5c1cb146100515780636b6b67ed1461006d57806376dad2231461008d5780638e403b52146100ab575b600080fd5b61006b6004803603810190610066919061011f565b6100cb565b005b6100756100d5565b60405161008493929190610185565b60405180910390f35b6100956100eb565b6040516100a2919061016a565b60405180910390f35b6100b36100f4565b6040516100c293929190610185565b60405180910390f35b8060008190555050565b6000806000600560006001925092509250909192565b60008054905090565b6000806000600692506000915060019050909192565b600081359050610119816101d7565b92915050565b600060208284031215610135576101346101d2565b5b60006101438482850161010a565b91505092915050565b610155816101bc565b82525050565b610164816101c8565b82525050565b600060208201905061017f600083018461015b565b92915050565b600060608201905061019a600083018661015b565b6101a7602083018561014c565b6101b4604083018461014c565b949350505050565b60008115159050919050565b6000819050919050565b600080fd5b6101e0816101c8565b81146101eb57600080fd5b5056fea26469706673582212200851b46b566dde339efad9d7a040247ad48d80a091895033700eb3b16b5e4ef064736f6c63430008070033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1670161867788,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "14"
+        ],
+        "name": "setNumber",
+        "type": "function",
+        "to": "created{1670161849219}",
+        "abi": "0xa51014d5ac0c1a7b6a49573227442c582e889513837491e1e1160882505a31f5",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1670162318950,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x68ee89c33d74c5ed5772d58bbb41dc1b02a35e286f7911ab8e631923ca0a1e85",
+        "contractName": "Functions",
+        "bytecode": "60806040526007600055604860015534801561001a57600080fd5b506102848061002a6000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80633fb5c1cb146100675780636b6b67ed1461008357806376dad223146100a35780638e403b52146100c15780638f2d8128146100e1578063e493ef8c146100fd575b600080fd5b610081600480360381019061007c919061017f565b61011b565b005b61008b610125565b60405161009a939291906101e5565b60405180910390f35b6100ab61013b565b6040516100b891906101ca565b60405180910390f35b6100c9610144565b6040516100d8939291906101e5565b60405180910390f35b6100fb60048036038101906100f6919061017f565b61015a565b005b610105610164565b60405161011291906101ca565b60405180910390f35b8060008190555050565b6000806000600560006001925092509250909192565b60008054905090565b6000806000600692506000915060019050909192565b8060018190555050565b60015481565b60008135905061017981610237565b92915050565b60006020828403121561019557610194610232565b5b60006101a38482850161016a565b91505092915050565b6101b58161021c565b82525050565b6101c481610228565b82525050565b60006020820190506101df60008301846101bb565b92915050565b60006060820190506101fa60008301866101bb565b61020760208301856101ac565b61021460408301846101ac565b949350505050565b60008115159050919050565b6000819050919050565b600080fd5b61024081610228565b811461024b57600080fd5b5056fea2646970667358221220defc55b0c5b04660a34c2251b1d030a568255cf8e4ece3c8f757dda51c11791e64736f6c63430008070033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1670162334544,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "84"
+        ],
+        "name": "setQ",
+        "type": "function",
+        "to": "created{1670162318950}",
+        "abi": "0x68ee89c33d74c5ed5772d58bbb41dc1b02a35e286f7911ab8e631923ca0a1e85",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xa51014d5ac0c1a7b6a49573227442c582e889513837491e1e1160882505a31f5": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "newNumber",
+            "type": "uint256"
+          }
+        ],
+        "name": "setNumber",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "afewVariables",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "anotherVariables",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "x",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "y",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "z",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "showNumber",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "0x68ee89c33d74c5ed5772d58bbb41dc1b02a35e286f7911ab8e631923ca0a1e85": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "newNumber",
+            "type": "uint256"
+          }
+        ],
+        "name": "setNumber",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "newQ",
+            "type": "uint256"
+          }
+        ],
+        "name": "setQ",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "afewVariables",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "anotherVariables",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "x",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "y",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "z",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "Q",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "showNumber",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}

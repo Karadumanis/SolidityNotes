@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TUTORIAL/6Immutable.sol": "Immutable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TUTORIAL/6Immutable.sol": {
+			"keccak256": "0xf124cd4c9ee5a79d23ad13e1e45a2073621a7627efde8cd42869fe8ccecae51b",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://2e6786e1edcdc62de658ffec2c51befde0619a1902243c9a6369c7c29b9775c8",
+				"dweb:/ipfs/QmdcHFrY21q4r2KESCvWJ7sKQoVhbuQoZwjBEiqg4fxYht"
+			]
+		}
+	},
+	"version": 1
+}

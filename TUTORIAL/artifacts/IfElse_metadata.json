@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TUTORIAL/7 If Else Control Structures.sol": "IfElse"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TUTORIAL/7 If Else Control Structures.sol": {
+			"keccak256": "0x68f8c46079060b519927f1004796af2b37d6159e37f4eb9fca3bb6ce666025dc",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://0397bfeee97c223f88b34980ce500eb9e024b3708e615df0479ece2dfb2a54dc",
+				"dweb:/ipfs/QmV8PrymtnwxAsEHWjKW5BVJRVd9YZTcc4UhpoHhty5iVi"
+			]
+		}
+	},
+	"version": 1
+}

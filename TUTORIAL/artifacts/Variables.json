@@ -1,0 +1,58 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052600c600055348015601457600080fd5b50603f8060226000396000f3fe6080604052600080fdfea2646970667358221220de4a38b7aba5b892e52722182e050e41337f7e912c0df8cb3f31c60f64ca6cf564736f6c63430008000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0xC PUSH1 0x0 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x14 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x22 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDE 0x4A CODESIZE 0xB7 0xAB 0xA5 0xB8 SWAP3 0xE5 0x27 0x22 XOR 0x2E SDIV 0xE COINBASE CALLER PUSH32 0x7E912C0DF8CB3F31C60F64CA6CF564736F6C6343000800003300000000000000 ",
+			"sourceMap": "66:45:0:-:0;;;105:2;92:15;;66:45;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea2646970667358221220de4a38b7aba5b892e52722182e050e41337f7e912c0df8cb3f31c60f64ca6cf564736f6c63430008000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDE 0x4A CODESIZE 0xB7 0xAB 0xA5 0xB8 SWAP3 0xE5 0x27 0x22 XOR 0x2E SDIV 0xE COINBASE CALLER PUSH32 0x7E912C0DF8CB3F31C60F64CA6CF564736F6C6343000800003300000000000000 ",
+			"sourceMap": "66:45:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "20072",
+				"totalCost": "32672"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
